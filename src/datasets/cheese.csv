@@ -1,0 +1,101 @@
+CheeseID,Name,Type,Rating,Review,Date
+100,Crottin de Chavignol,Soft,4,This Loire Valley specialty pairs beautifully with walnuts and honey.,26-02-2020 01:41:50
+101,Red Leicester,Hard,6,"A mild, nutty English cheese with a deep orange color and smooth texture.",10-01-2008 03:31:37
+102,Munster,Soft,1,"A French cheese with a strong aroma and a creamy, savory taste.",11-09-2000 14:35:07
+103,Feta,Brined,3,"Salty, tangy Greek cheese with a crumbly texture and briny flavor.",19-11-2022 19:03:25
+104,Oaxaca,Semi-Soft,4,"A mild, milky Mexican cheese with a stringy, elastic texture.",16-06-2020 10:23:18
+105,Livarot,Soft,3,"Livarot's robust, earthy flavor makes it a favorite among blue cheese lovers.",27-04-2011 22:28:46
+106,Appenzeller,Hard,5,"A robust cheese with a pungent aroma and a rich, buttery finish.",09-11-2020 20:05:55
+107,Parmesan,Hard,3,"Aged Italian cheese with a hard, granular texture and rich, nutty, salty flavor.",08-09-2007 17:35:22
+108,Brillat-Savarin,Soft,1,A decadent French cheese with over 70% butterfat and a creamy texture.,12-06-2002 21:10:08
+109,Bleu de Bresse,Blue,6,"Soft, creamy blue cheese with a mild, slightly salty flavor and white rind.",25-05-2000 00:43:03
+110,Casu Marzu,Soft,9,"Strong Sardinian cheese with live insects and a powerful, pungent flavor.",01-04-2008 05:41:13
+111,Saint Agur,Blue,1,"Saint Agur's creamy, buttery flavor makes it perfect for spreading.",02-05-2013 05:12:18
+112,Roncal,Hard,8,Roncal's distinctive flavor comes from the sheep's milk and mountain grazing.,20-09-2021 14:34:02
+113,Tilsit,Semi-Hard,8,"Mild, semi-hard German cheese with a smooth texture and slightly tangy flavor.",24-01-2024 06:53:17
+114,Cotswold,Hard,9,A unique English cheese blended with herbs and chopped chives for color.,28-08-2004 11:08:58
+115,Bleu des Causses,Blue,1,This cave-aged blue develops complex flavors over time.,12-12-2024 22:33:01
+116,Kalari,Fresh,5,Kalari's mild flavor makes it perfect for frying or grilling.,14-12-2013 02:14:55
+117,Double Gloucester,Hard,6,This English favorite is richer and more flavorful than regular Gloucester.,06-05-2015 13:46:46
+118,Provolone,Semi-Hard,7,"A smooth, semi-hard Italian cheese with a mild, slightly sweet or sharp flavor.",13-06-2014 17:55:31
+119,Casu Marzu,Soft,6,"Casu Marzu is considered a delicacy in Sardinia, with a unique texture and flavor.",29-03-2021 05:08:28
+120,Stilton,Blue,7,"A rich, creamy English blue cheese with a strong, distinctive flavor.",17-04-2011 08:12:35
+121,Torta del Casar,Soft,1,"A rich Spanish cheese with a creamy interior and strong, savory flavor.",06-01-2006 19:27:02
+122,Mozzarella,Fresh,2,Mozzarella's mild taste and elastic texture make it perfect for pizza and caprese.,04-03-2006 14:25:37
+123,Domiati,Brined,6,"A mild, creamy cheese with a soft texture and slightly salty, tangy taste.",15-08-2012 14:35:42
+124,Asiago,Hard,,A semi-hard cheese with a smooth texture and pleasant nutty aftertaste.,30-12-2011 03:28:34
+125,Bleu des Causses,Blue,5,"The tangy, slightly spicy flavor of Bleu des Causses stands up well in salads.",19-06-2021 13:31:44
+126,Ricotta,Fresh,7,"A versatile Italian cheese with a mild, slightly sweet taste.",13-01-2023 11:36:57
+127,Queso Fresco,Fresh,8,"A Mexican staple with a mild, tangy flavor and crumbly texture.",01-01-2005 04:41:47
+128,Blue Stilton,Blue,1,"Rich, creamy English blue cheese with a strong, distinctive flavor.",20-07-2011 22:28:38
+129,Provolone,Semi-Hard,4,"A smooth, semi-hard Italian cheese with a mild, slightly sweet or sharp flavor.",09-09-2015 23:50:26
+130,Comté,Hard,9,A versatile cheese that's great on its own or melted in fondues.,30-05-2013 11:15:45
+131,Bleu du Vercors-Sassenage,Blue,6,The creamy texture and balanced flavor make Bleu du Vercors-Sassenage a crowd-pleaser.,01-08-2007 13:04:06
+132,Tetilla,Semi-Soft,2,"Mild, buttery Spanish cheese with a soft, creamy texture and slightly sweet taste.",07-08-2000 01:55:59
+133,Bleu d'Auvergne,Blue,,"Creamy blue cheese with a mild, slightly spicy flavor and blue-green veins.",23-05-2006 12:20:26
+134,Fourme d'Ambert,Blue,3,"A gentle blue cheese with a creamy texture and mild, nutty taste.",24-03-2020 00:04:48
+135,Provolone,Semi-Hard,4,Provolone's smooth texture and mild flavor make it perfect for sandwiches.,05-04-2010 04:08:01
+136,Mahón,Semi-Hard,,"A Spanish favorite with a firm texture and complex, slightly spicy taste.",07-01-2010 03:52:56
+137,Vacherin,Soft,1,This Swiss favorite is often enjoyed in the winter months.,14-03-2016 18:47:49
+138,Feta,Brined,8,This traditional Greek cheese is aged in brine for its distinctive flavor.,20-09-2013 06:03:53
+139,Emmental,Hard,8,"Emmental's mild, sweet taste makes it perfect for sandwiches and fondues.",02-12-2018 14:35:56
+140,Manouri,Fresh,7,This fresh cheese is often used in Greek pastries like spanakopita.,09-08-2010 02:40:34
+141,Manchego,Hard,6,This PDO-protected cheese is a staple of Spanish cuisine.,05-09-2017 00:24:48
+142,Chhena,Fresh,3,This fresh cheese is essential for making popular Indian sweets like rasgulla.,12-09-2002 23:36:27
+143,Queijo São Jorge,Hard,1,Queijo São Jorge's complex flavor develops with age.,25-08-2005 04:34:17
+144,Maroilles,Soft,4,"A strong, creamy cheese with a pungent aroma and rich, tangy taste.",15-04-2019 07:54:35
+145,Mozzarella,Fresh,6,"Fresh, mild Italian cheese with a soft, elastic texture and delicate flavor.",20-10-2022 13:02:49
+146,Chhena,Fresh,,This fresh cheese is essential for making popular Indian sweets like rasgulla.,14-04-2001 21:37:11
+147,Colby,Semi-Hard,9,"This American cheese has a slightly sweet, nutty flavor and a firm texture.",02-11-2022 10:00:02
+148,Domiati,Brined,5,"A traditional Egyptian cheese with a mild, slightly salty flavor.",09-08-2010 00:54:30
+149,Burrata,Fresh,,"The perfect cheese for caprese salads, with a rich, milky flavor.",12-03-2020 19:17:50
+150,Wensleydale,Semi-Hard,1,Wensleydale's fruity flavor makes it perfect for pairing with apples.,18-12-2003 03:29:12
+151,Kalari,Fresh,8,"This fresh cheese is a staple in Indian cuisine, with a soft, stretchy texture.",12-04-2005 20:48:20
+152,Bleu du Vercors-Sassenage,Blue,3,A delicate blue cheese that's less pungent than others in its category.,23-04-2019 04:03:13
+153,Saint Agur,Blue,7,"Saint Agur's creamy, buttery flavor makes it perfect for spreading.",16-06-2010 10:08:22
+154,Ricotta,Fresh,,"Ricotta's creamy, grainy texture makes it perfect for desserts and savory dishes.",10-05-2002 19:48:35
+155,Casu Marzu,Soft,8,"A controversial cheese with a powerful aroma and intense, savory flavor.",02-05-2021 22:41:22
+156,Provolone,Semi-Hard,2,"A smooth, semi-hard Italian cheese with a mild, slightly sweet or sharp flavor.",24-11-2014 13:10:18
+157,Brie,Soft,9,A soft-ripened cheese with a bloomy rind and luxurious mouthfeel.,23-01-2021 08:24:00
+158,Provolone,Semi-Hard,,An Italian cheese that ranges from mild to sharp depending on aging.,07-03-2012 18:52:11
+159,Raclette,Semi-Hard,4,"A melty Swiss cheese with a mild, fruity flavor and creamy texture.",27-12-2006 05:11:41
+160,Lancashire,Semi-Soft,2,"A crumbly English cheese with a mild, tangy flavor and creamy texture.",12-10-2024 23:27:20
+161,Vacherin,Soft,6,"Mild, creamy Swiss cheese with a soft texture and delicate, slightly sweet flavor.",18-02-2009 01:41:37
+162,Valdeon,Blue,3,This cheese is often wrapped in sycamore leaves for aging.,12-07-2014 03:28:50
+163,Domiati,Brined,9,"Mild, creamy Egyptian cheese with a soft texture and salty, tangy flavor.",23-05-2018 20:07:12
+164,Bleu d'Auvergne,Blue,5,"A popular French blue with a rich, buttery taste and delicate mold veins.",23-09-2018 14:40:59
+165,Blue Stilton,Blue,5,Blue Stilton pairs beautifully with port wine and pears.,06-08-2009 02:52:25
+166,Cotija,Hard,1,"A firm, crumbly cheese with a sharp, salty flavor that enhances any dish.",02-06-2000 09:01:20
+167,Feta,Brined,7,This traditional Greek cheese is aged in brine for its distinctive flavor.,26-12-2004 03:56:28
+168,Boursin,Soft,7,"Boursin's rich, garlicky flavor makes it a popular choice for appetizers.",19-05-2018 03:09:22
+169,Neufchâtel,Soft,6,"A mild, tangy French cheese with a soft, crumbly texture and bloomy rind.",04-12-2017 04:29:45
+170,Torta del Casar,Soft,5,"Rich Spanish cheese with a creamy interior and strong, savory flavor.",14-02-2004 05:54:45
+171,Brie,Soft,7,"The perfect party cheese, Brie is mild, creamy, and universally appealing.",18-12-2014 07:25:08
+172,Maroilles,Soft,2,"Maroilles' pungent smell gives way to a creamy, tangy taste.",03-08-2013 22:39:33
+173,Fourme d'Ambert,Blue,9,"This French blue is milder than others, with a smooth, creamy mouthfeel.",08-02-2016 06:05:42
+174,Delice de Bourgogne,Soft,1,"This triple-cream cheese is as rich as it sounds, with a buttery, smooth texture.",11-06-2002 04:12:25
+175,Double Gloucester,Hard,2,This English favorite is richer and more flavorful than regular Gloucester.,01-01-2021 07:52:51
+176,Double Gloucester,Hard,,"A buttery, nutty English cheese with a smooth, slightly crumbly texture.",29-11-2005 06:37:32
+177,Jarlsberg,Semi-Hard,,"A Norwegian favorite with a sweet, nutty flavor and smooth texture.",25-05-2018 21:21:19
+178,Roncal,Hard,,"A Spanish cheese with a nutty, tangy flavor and firm texture.",04-04-2005 23:52:23
+179,Burrata,Fresh,3,"The perfect cheese for caprese salads, with a rich, milky flavor.",03-10-2023 03:19:53
+180,Domiati,Brined,7,"Mild, creamy Egyptian cheese with a soft texture and salty, tangy flavor.",23-10-2020 10:12:12
+181,Comté,Hard,8,"Comté's flavor profile changes with age, from fruity to nutty to caramel notes.",02-01-2011 20:40:20
+182,Ricotta,Fresh,1,"A versatile Italian cheese with a mild, slightly sweet taste.",13-05-2013 10:15:01
+183,Delice de Bourgogne,Soft,5,A decadent French cheese with a bloomy rind and luxurious creamy interior.,12-04-2024 08:41:48
+184,Mozzarella,Fresh,1,"A mild, fresh Italian cheese with a soft, elastic texture and delicate flavor.",24-02-2001 02:05:37
+185,Colby,Semi-Hard,6,"Mild, semi-hard American cheese with a slightly sweet, nutty taste.",12-03-2026 02:39:04
+186,Saint Agur,Blue,3,"A creamy blue cheese with a rich, buttery flavor and delicate blue veins.",17-11-2022 23:24:03
+187,Paneer,Fresh,7,"A mild, milky Indian cheese with a soft, crumbly texture that's perfect for cooking.",19-04-2004 04:05:21
+188,Beaufort,Hard,,"The sweet, nutty taste of Beaufort makes it perfect for fondues.",16-12-2007 04:05:59
+189,Provolone,Semi-Hard,8,An Italian cheese that ranges from mild to sharp depending on aging.,08-01-2015 08:37:16
+190,Panela,Fresh,8,"Fresh Mexican cheese with a mild, slightly salty flavor and soft, crumbly texture.",12-09-2009 07:35:20
+191,Tilsit,Semi-Hard,1,"A mild, semi-hard German cheese with a smooth texture and slightly tangy flavor.",06-03-2019 10:07:17
+192,Bleu des Causses,Blue,1,"Robust blue cheese with a smooth texture and strong, tangy flavor.",11-05-2022 07:50:28
+193,Limburger,Soft,5,"Limburger's strong smell belies its mild, creamy taste.",06-07-2019 05:01:38
+194,Cotswold,Hard,7,"Herb-infused English cheese with a mild, creamy flavor and colorful appearance.",21-11-2010 14:41:51
+195,Mizithra,Fresh,4,Mizithra's mild flavor makes it perfect for both sweet and savory dishes.,30-05-2000 08:48:01
+196,Edam,Semi-Hard,1,"Edam's mild, slightly tangy taste makes it perfect for snacks and sandwiches.",20-06-2014 16:36:43
+197,Queso Fresco,Fresh,1,"This fresh cheese is a staple in Mexican cuisine, with a pleasant tang.",17-06-2021 22:12:05
+198,Fourme d'Ambert,Blue,1,Fourme d'Ambert's subtle flavor makes it approachable for blue cheese newcomers.,24-04-2015 08:14:24
+199,Caerphilly,Semi-Hard,9,"A light, slightly tangy cheese that's perfect for sandwiches and salads.",16-07-2023 00:34:11
