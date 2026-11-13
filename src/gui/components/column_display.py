@@ -40,11 +40,12 @@ def _make_selection_popover(transformation: TransformationProfile, colname: str)
         ]
     return RepresentationRegistry(list(itertools.chain.from_iterable(groups)))
 
-def _make_toolbar(column: ColumnProfile, featured_type: FeaturedType, init_type: str) -> tuple[TransformationProfile, RepresentationRegistry]:
+def _make_toolbar(column: ColumnProfile, featured_type: FeaturedType, init_type: str, syntax_pattern: str) -> tuple[TransformationProfile, RepresentationRegistry]:
     with st.container(horizontal=True, vertical_alignment="center"):
         st.subheader(column.name)
         st.badge(init_type)
         st.badge(featured_type, color=_FEATURED_TYPE_COLORS[featured_type])
+        st.badge(syntax_pattern)
         if isinstance(column, SimpleColumnProfile):
             transformation = column.transformation
         else:
@@ -73,7 +74,9 @@ def _make_display(data: DataProfile, column: str, transformation: str, selected_
 def make_column_container(column: ColumnProfile, data: DataProfile):
     featured_type = data.schema.properties[column.name].featured_type
     init_type = data.schema.properties[column.name].init_type
+    syntax_pattern = data.schema.properties[column.name].syntax_pattern
+
     with st.container():
-        transformation, selections = _make_toolbar(column, featured_type,init_type)
+        transformation, selections = _make_toolbar(column, featured_type, init_type, syntax_pattern)
         _make_display(data, column.name, transformation.name, selections)
         

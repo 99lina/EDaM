@@ -17,13 +17,16 @@ def load_profile(file: Path | io.BytesIO) -> tuple[DataProfile, str]:
         text = file.read_text()
         data = json.loads(text)
     else:
+        file.seek(0)
         data = json.load(file)
     profile_name, _, _ = Path(file.name).name.rpartition("_")
     return DataProfile.from_dict(data), profile_name
 
-def load_embeddings(path: Path | io.BytesIO) -> tuple[pd.DataFrame, str]:
-    data = pd.read_parquet(path).T
-    profile_name, _, _ = Path(path.name).name.rpartition("_")
+def load_embeddings(file: Path | io.BytesIO) -> tuple[pd.DataFrame, str]:
+    if isinstance(file, io.BytesIO):
+        file.seek(0)
+    data = pd.read_parquet(file).T
+    profile_name, _, _ = Path(file.name).name.rpartition("_")
 
     return data, profile_name
 
@@ -182,7 +185,7 @@ def generate_heat_matrix_alt(matrix_df: pd.DataFrame, name_1: str, name_2: str, 
     return chart
 
 
-def combine_and_match(matrix1, matrix2, matrix3, matrix4):
+def combine_and_match(matrix1, matrix2, matrix3, matrix4, name1, name2):
 
     matrices = [matrix1, matrix2, matrix3, matrix4]
 
@@ -203,9 +206,9 @@ def combine_and_match(matrix1, matrix2, matrix3, matrix4):
 
     # 3. Extract matching pairs
     matches = pd.DataFrame({
-        "row": combined.index[row_ind],
-        "column": combined.columns[col_ind],
-        "similarity": combined.to_numpy()[row_ind, col_ind]/4
+        name1: combined.index[row_ind],
+        name2: combined.columns[col_ind],
+        "similarity in %": (combined.to_numpy()[row_ind, col_ind]/4) * 100
     })
 
     return combined, matches

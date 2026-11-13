@@ -31,15 +31,23 @@ def render_vlines(filtered_data: pd.DataFrame, all_data: pd.DataFrame) -> alt.Ch
         ).scale(
             domain=all_data["label"].to_list() # also works with just the series, but type checker complains because a pd.series is not a Sequence
         )
-    ).properties(height=50)
+    ).properties(
+        height=35
+    )
 
 
 def render_hist(filtered_data: pd.DataFrame,  all_data: pd.DataFrame) -> alt.Chart:
-    return alt.Chart(filtered_data).mark_bar(opacity=0.75, color="#C1E3DD").encode(
+    return alt.Chart(
+        filtered_data
+    ).mark_bar(
+        opacity=0.75, color="#C1E3DD"
+    ).encode(
         x=alt.X('x_start:Q', title="Value distribution", scale=alt.Scale(zero=False)),
         x2=alt.X2('x_end:Q'),
         y=alt.Y('height:Q', title='Count'),
         y2=alt.datum(0)
+    ).properties(
+        height=125
     )
 
 
@@ -47,7 +55,7 @@ def render_range(filtered_data: pd.DataFrame, all_data: pd.DataFrame) -> alt.Cha
     return alt.Chart(
         filtered_data
     ).mark_rule(
-        strokeWidth=6,
+        strokeWidth=5,
         strokeCap="butt",
     ).encode(
         x=alt.X(
@@ -68,7 +76,8 @@ def render_range(filtered_data: pd.DataFrame, all_data: pd.DataFrame) -> alt.Cha
                 grid=True,
                 labelFlush=False,
                 title=None,
-                domain=True
+                domain=True,
+                labelOverlap=False
             )
         ),
         color=alt.Color(
@@ -79,10 +88,12 @@ def render_range(filtered_data: pd.DataFrame, all_data: pd.DataFrame) -> alt.Cha
         ),
         tooltip=["label", "deviation"],
         strokeDash=alt.condition(
-            alt.datum.is_left, 
-            alt.value([2, 2]), 
+            alt.datum.is_left,
+            alt.value([2, 2]),
             alt.value([0])
         )
+    ).properties(
+        height=alt.Step(13)
     )
 
 def render_categorical_distribution(filtered_data: pd.DataFrame, all_data: pd.DataFrame) -> alt.Chart:
@@ -105,6 +116,8 @@ def render_categorical_distribution(filtered_data: pd.DataFrame, all_data: pd.Da
             alt.Tooltip('value:N', title='Value'),
             alt.Tooltip('height:Q', title='Count')
         ]
+    ).properties(
+        height=125
     )
 
 def render_date_vlines(filtered_data: pd.DataFrame, all_data: pd.DataFrame) -> alt.Chart:
@@ -133,7 +146,9 @@ def render_date_vlines(filtered_data: pd.DataFrame, all_data: pd.DataFrame) -> a
         ).scale(
             domain=all_data["label"].to_list()
         )
-    ).properties(height=50)
+    ).properties(
+        height=35
+    )
 
 
 def render_date_hist(filtered_data: pd.DataFrame, all_data: pd.DataFrame) -> alt.Chart:
@@ -151,4 +166,6 @@ def render_date_hist(filtered_data: pd.DataFrame, all_data: pd.DataFrame) -> alt
         x2=alt.X2('x_end:T'),
         y=alt.Y('height:Q', title='Count'),
         y2=alt.datum(0)
+    ).properties(
+        height=125
     )

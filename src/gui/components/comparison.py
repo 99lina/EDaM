@@ -22,12 +22,14 @@ def _load_plots():
     embeddings_comparison = generate_heat_matrix_alt(cos_matrix, name_1, name_2)
     syn_similarity = generate_heat_matrix_alt(comp_matrix_syntax, name_1, name_2)
 
-    return comp_matrix_type, comp_matrix_stat, cos_matrix, comp_matrix_syntax, type_simi, profile_comparison, embeddings_comparison, syn_similarity
+    _, matches = combine_and_match(comp_matrix_type, comp_matrix_stat, cos_matrix, comp_matrix_syntax, name_1, name_2)
+
+    return matches, type_simi, profile_comparison, embeddings_comparison, syn_similarity
 
 
 def make_comparison_page():
-    comp_matrix_type, comp_matrix, cos_matrix, comp_matrix_syntax, type_simi, profile_comparison, embeddings_comparison, syn_simi = _load_plots()
-    _, matches = combine_and_match(comp_matrix_type, comp_matrix, cos_matrix, comp_matrix_syntax)
+    matches, type_simi, profile_comparison, embeddings_comparison, syn_simi = _load_plots()
+
 
     st.space("medium")
 
@@ -42,8 +44,8 @@ def make_comparison_page():
 
     st.dataframe(
         matches,
-        use_container_width=True,
-        hide_index=True
+        hide_index=True,
+        width=500
     )
 
     st.space("large")
@@ -59,11 +61,14 @@ def make_comparison_page():
         st.markdown("##### Data type Comparison")
         st.altair_chart(
             type_simi,
+            height=500,
             use_container_width=True
         )
+
         st.markdown("##### Statistics Comparison")
         st.altair_chart(
             profile_comparison,
+            height=500,
             use_container_width=True
         )
 
@@ -71,11 +76,15 @@ def make_comparison_page():
         st.markdown("##### Semantic Embeddings Comparison")
         st.altair_chart(
             embeddings_comparison,
+            height=500,
             use_container_width=True
         )
+
+
         st.markdown("##### Syntax Comparison")
         st.altair_chart(
             syn_simi,
+            height=500,
             use_container_width=True
         )
 
