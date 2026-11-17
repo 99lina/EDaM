@@ -21,9 +21,9 @@ after installing all requirements navigate to gui file and run.
 ```bash
 streamlit run app.py
 ```
-open in your browser 
+open this link http://localhost:8501/ in your browser. Then have fun 😊
 
-### Metrics
+### Statistical Metrics
 the metrics implemented in EDaM are as follows:
 
 #### Numeric Metrics
