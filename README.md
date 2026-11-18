@@ -76,3 +76,13 @@ the metrics implemented in EDaM are as follows:
 `max_value`: Largest value in any array
 
 
+## Contributors
+The following people contributed to this project (listed in alphabetical order):
+- Hannah Gredler
+- Georg Jeanjour
+- Kevin Kramer
+- Lina Razouk
+- Valerie Restat
+- Sebastian Strasser
+
+We also thank the summer semester 2023 practical course group for helping to lay the conceptual foundation for this project.
